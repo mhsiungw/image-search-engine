@@ -15,7 +15,6 @@ export async function fetchResults(term) {
         })
         .then((result) => {
             let { items } = result
-            console.log(items)
             return items
         })
         .catch((err) => {

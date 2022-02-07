@@ -8,13 +8,11 @@ $('form').submit(function (e) {
     e.preventDefault()
     if (!$('input').val()) return
     let searchTerm = $('input').val()
-    console.log(searchTerm)
     $('.imgs-container').empty()
     renderedImgs(searchTerm)
 })
 
 async function renderedImgs(term = 'Timothée Chalamet') {
-    console.log(term)
     // fetch data
     let data = await fetchResults(term)
 

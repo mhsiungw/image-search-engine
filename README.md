@@ -6,6 +6,12 @@ A web app making use of [Google API](https://developers.google.com/custom-search
 
 <br />
 
+## Demo website
+
+https://quizzical-jennings-708f41.netlify.app
+
+ <br />
+
 ## To start the project locally
 
 on your terminal

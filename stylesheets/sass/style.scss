@@ -40,10 +40,12 @@ body {
         }
     }
     .imgs-container {
-        width: 65%;
+        width: 80%;
         min-width: 300px;
+        max-width: 1350px;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+        grid-template-columns: repeat(auto-fit, 10px);
+        justify-content: center;
         // grid-auto-rows 設定越小，上下圖片的間隔可以越一致
         grid-auto-rows: 10px;
         gap: 0.15px 0.15px;
